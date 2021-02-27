@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Spire.XLS" Version="11.2.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AWS.Cinte.Application.Contracts\AWS.Cinte.Application.Contracts.csproj" />
+    <ProjectReference Include="..\AWS.Cinte.Dtos\AWS.Cinte.Dtos.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.Cinte", "AWS.Cinte.csproj", "{0E589927-099F-43A5-9030-D1615BAFEB37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWS.Cinte.Tests", "..\AWS.Cinte.Tests\AWS.Cinte.Tests.csproj", "{2C0255F5-25DB-473D-AF41-157849DF5E36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 API", "01 API", "{F475A7A0-7153-4D54-82F6-EF90695420DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 Application", "02 Application", "{7F632DE9-9644-4A4E-A56D-F713CAF39E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.Cinte.Application", "..\AWS.Cinte.Application\AWS.Cinte.Application.csproj", "{9E113543-FA06-4520-AB7D-5E614BF7A964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.Cinte.Application.Contracts", "..\AWS.Cinte.Application.Contracts\AWS.Cinte.Application.Contracts.csproj", "{A1526693-8362-4CF6-A496-FAD55829E5AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 Dtos", "03 Dtos", "{B1CC3EC4-D70A-45AC-A7E5-AC1C9446CEAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AWS.Cinte.Dtos", "..\AWS.Cinte.Dtos\AWS.Cinte.Dtos.csproj", "{7D3F6C30-FDC9-43EA-B38E-95B402A86879}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E589927-099F-43A5-9030-D1615BAFEB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E589927-099F-43A5-9030-D1615BAFEB37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E589927-099F-43A5-9030-D1615BAFEB37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E589927-099F-43A5-9030-D1615BAFEB37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0255F5-25DB-473D-AF41-157849DF5E36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0255F5-25DB-473D-AF41-157849DF5E36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0255F5-25DB-473D-AF41-157849DF5E36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0255F5-25DB-473D-AF41-157849DF5E36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E113543-FA06-4520-AB7D-5E614BF7A964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E113543-FA06-4520-AB7D-5E614BF7A964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E113543-FA06-4520-AB7D-5E614BF7A964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E113543-FA06-4520-AB7D-5E614BF7A964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1526693-8362-4CF6-A496-FAD55829E5AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1526693-8362-4CF6-A496-FAD55829E5AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1526693-8362-4CF6-A496-FAD55829E5AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1526693-8362-4CF6-A496-FAD55829E5AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D3F6C30-FDC9-43EA-B38E-95B402A86879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D3F6C30-FDC9-43EA-B38E-95B402A86879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D3F6C30-FDC9-43EA-B38E-95B402A86879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D3F6C30-FDC9-43EA-B38E-95B402A86879}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0E589927-099F-43A5-9030-D1615BAFEB37} = {F475A7A0-7153-4D54-82F6-EF90695420DC}
+		{9E113543-FA06-4520-AB7D-5E614BF7A964} = {7F632DE9-9644-4A4E-A56D-F713CAF39E59}
+		{A1526693-8362-4CF6-A496-FAD55829E5AA} = {7F632DE9-9644-4A4E-A56D-F713CAF39E59}
+		{7D3F6C30-FDC9-43EA-B38E-95B402A86879} = {B1CC3EC4-D70A-45AC-A7E5-AC1C9446CEAA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3118811E-6ED5-4929-8F52-A9F1C33DFF82}
+	EndGlobalSection
+EndGlobal
