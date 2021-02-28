@@ -5,6 +5,6 @@ namespace AWS.Cinte.Application.Contracts.Services
 {
     public interface IFileService
     {
-        Task ConvertExcelFileToTextFile(FilePathDto filePath);
+        Task<bool> ConvertExcelFileToTextFile(FilePathDto filePath);
     }
 }

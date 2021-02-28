@@ -9,12 +9,12 @@ namespace AWS.Cinte.Application.Services
 {
     public class FileService : IFileService
     {
-        public async Task ConvertExcelFileToTextFile(FilePathDto filePath)
+        public async Task<bool> ConvertExcelFileToTextFile(FilePathDto filePath)
         {
+            Workbook workbook = new Workbook();
             try
             {
-                string myDirectoryToTextFile = filePath.MyDirectoryToTextFile;
-                Workbook workbook = new Workbook();
+                string myDirectoryToTextFile = $"{Directory.GetCurrentDirectory()}\\Files";
                 workbook.LoadFromFile(filePath.MyPathFromExcelFile);
                 Worksheet sheet = workbook.Worksheets[0];
                 string pathFileTxtWithoutFormat = $"{myDirectoryToTextFile}\\AWSCinte.txt";
@@ -26,6 +26,8 @@ namespace AWS.Cinte.Application.Services
             {
                 throw;
             }
+
+            return true;
         }
         public async Task FormatFileTxt(string myDirectoryToTextFile)
         {
